@@ -108,5 +108,3 @@ This project is licensed under the MIT License.
 
 Built with ❤️ by FNN Strategy
 开源社区持续更新，欢迎贡献与合作！
-
-如需进一步定制（如添加徽章、CI/CD 状态、截图等），可继续补充。是否需要我也帮你写一个 `CONTRIBUTING.md` 或项目结构说明？
