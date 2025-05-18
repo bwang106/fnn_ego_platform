@@ -32,6 +32,14 @@ The **FNN Ego Platform** is the open-source platform powering **FNN Strategy’s
 
 ## 🛠️ Installation and Usage (安装和使用)
 
+### 📦 安装与部署 | Installation
+
+请参考 [`deployment.md`](./deployment.md) 配置 Docker 与 GitHub Actions 自动部署。
+
+See [`deployment.md`](./deployment.md) for CI/CD and Docker setup.
+
+---
+
 ### Run Locally
 
 ```bash
@@ -54,10 +62,10 @@ PORT=3000
 NODE_ENV=development
 # 可添加其他 API 密钥等变量
 
-
+```
 ---
 
-🧱 Technology Stack (技术栈)
+## 🧱 Technology Stack (技术栈)
 	•	Frontend: React/Vue + HTML5 + CSS3 + JavaScript (ES6+)
 	•	Real-Time Streaming: WebRTC, WebSocket, adaptive bitrate streaming
 	•	Backend: Node.js or compatible framework
@@ -68,7 +76,7 @@ NODE_ENV=development
 
 ⸻
 
-🎯 Target Users (目标用户)
+## 🎯 Target Users (目标用户)
 	•	Quantitative Investors (量化投资者)
 For remote monitoring of trading systems, backtesting, and live data visualization.
 	•	Finance Professionals (金融专业人士)
@@ -80,7 +88,7 @@ Engineers and IT admins can remotely troubleshoot and guide fieldwork with a fir
 
 ⸻
 
-🤝 Contribution Guidelines (贡献指南)
+## 🤝 Contribution Guidelines (贡献指南)
 
 We welcome community contributions! 欢迎社区开发者参与！
 	1.	Fork 本仓库并创建分支
@@ -90,14 +98,46 @@ We welcome community contributions! 欢迎社区开发者参与！
 
 ⸻
 
-📄 License (许可证)
+## 📁 项目结构 | Project Structure (not real)
+
+```
+fnn_ego_platform/
+│
+├── frontend/            # Next.js 前端界面（视频平台）
+│   ├── components/      # React 组件
+│   ├── pages/           # 页面路由
+│   └── public/          # 静态资源
+│
+├── backend/             # Django 后端服务
+│   ├── api/             # RESTful 接口
+│   ├── models/          # 数据模型
+│   └── utils/           # 工具方法
+│
+├── data/                # 示例数据（视频、笔记、策略）
+├── docs/                # 项目文档
+├── Dockerfile           # Docker 构建文件
+├── docker-compose.yml   # Docker 编排
+└── README.md            # 项目说明
+```
+
+---
+
+## 🤝 参与贡献 | Contributing
+
+我们欢迎你贡献代码、文档或提出新想法！请查阅 [`CONTRIBUTING.md`](./CONTRIBUTING.md) 获取完整指南。
+
+We welcome community contributions! Please check [`CONTRIBUTING.md`](./CONTRIBUTING.md) for full instructions.
+
+---
+
+## 📄 License (许可证)
 
 This project is licensed under the MIT License.
 本项目采用 MIT 开源许可证。请查看 LICENSE 文件了解更多信息。
 
 ⸻
 
-🚀 Future Plans (未来计划)
+## 🚀 Future Plans (未来计划)
 	•	Integration with OpenAI Whisper / GPT for voice transcription and instruction suggestions
 	•	Edge AI model deployment on smart glasses for real-time diagnostics
 	•	Enterprise dashboard for team management and session analytics
